@@ -28,20 +28,22 @@ export const NameCard: React.FC<NameCardProps> = ({ name, index }) => {
       </div>
       
       <div className="space-y-2 w-full">
-        <div className="text-4xl font-arabic text-emerald-900 leading-relaxed">
+        {/* Арабский шрифт - УВЕЛИЧЕН до text-5xl */}
+        <div className="text-5xl font-arabic text-emerald-900 leading-relaxed">
           {name.arabic}
         </div>
         
-        {/* Кнопка озвучки */}
+        {/* Кнопка озвучки - УМЕНЬШЕНА до p-1.5 и text-lg */}
         <button 
           onClick={playArabicVoice}
-          className="p-2 bg-emerald-100 hover:bg-emerald-200 rounded-full transition-colors mx-auto block my-2 active:scale-95"
+          className="p-1.5 bg-emerald-100 hover:bg-emerald-200 rounded-full transition-colors mx-auto block my-2 active:scale-95"
           title="Прослушать"
         >
-          <span className="text-xl">🔊</span>
+          <span className="text-lg">🔊</span>
         </button>
 
-        <div className="text-xl font-bold text-emerald-700">
+        {/* ШРИФТ ТРАНСКРИПЦИИ - УМЕНЬШЕН до text-lg */}
+        <div className="text-lg font-bold text-emerald-700">
           {name.transliteration}
         </div>
       </div>
@@ -49,9 +51,10 @@ export const NameCard: React.FC<NameCardProps> = ({ name, index }) => {
       <div className="h-px w-16 bg-emerald-100" />
       
       <div className="space-y-1">
-        {/* Перевод */}
-        <div className="text-lg font-bold text-slate-900">
-          «{translation}»
+        {/* ПЕРЕВОД НА РУССКОМ - УВЕЛИЧЕН до text-xl */}
+        {/* УБРАНЫ вручную добавленные ёлочки « » в коде */}
+        <div className="text-xl font-bold text-slate-900">
+          {translation}
         </div>
         <p className="text-sm text-slate-600 leading-relaxed">
           {name.description}
