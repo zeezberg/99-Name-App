@@ -70,7 +70,7 @@ export const allahNames: AllahName[] = [
   { id: 61, arabic: "الْمُحْيِي", transliteration: "Al-Muhyi", translation: "«Дарующий жизнь»", description: "Создатель дарует жизнь кому пожелает." },
   { id: 62, arabic: "الْمُمِيتُ", transliteration: "Al-Mumit", translation: "«Дарующий смерть»", description: "Аллах умерщвляет того, кого пожелает." },
   { id: 63, arabic: "الْحَيُّ", transliteration: "Al-Hayy", translation: "«Обладающий вечной жизнью»", description: "Всевышний не имеет временных ограничений, так как Он вечен." },
-  { id: 64, arabic: "الْمَاجِدُ", transliteration: "Al-Majid", translation: "«Наиславнейший»", description: "Никто не способен сравниться с Аллахом по признаку величия." },
+  { id: 64, arabic: "الْمَاجِدُ", transliteration: "Al-Majid", translation: "«Наиславнейший»", description: "Это имя переводится с арабского также как «Обладающий неограниченным величием», то есть никто не способен сравниться с Аллахом по этому признаку." },
   { id: 65, arabic: "الْقَيُّومُ", transliteration: "Al-Qayyum", translation: "«Поддерживающий жизнь»", description: "Источник поддержания жизни во Вселенной, не зависящий ни от кого." },
   { id: 66, arabic: "الْوَاجِدُ", transliteration: "Al-Wajid", translation: "«Всемогущий»", description: "Наш Творец обладает абсолютной властью над всем." },
   { id: 67, arabic: "الْوَاحِدُ", transliteration: "Al-Wahid", translation: "«Единственный»", description: "Он является Единственным Богом, достойным поклонения." },
