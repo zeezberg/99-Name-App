@@ -76,7 +76,7 @@ export const allahNames: AllahName[] = [
   { id: 67, arabic: "الْوَاحِدُ", transliteration: "Al-Wahid", translation: "«Единственный»", description: "Он является Единственным Богом, достойным поклонения." },
   { id: 68, arabic: "الصَّمَدُ", transliteration: "As-Samad", translation: "«Самодостаточный»", description: "Аллах не испытывает нужды ни в ком и ни в чём, обладая всем в достатке." },
   { id: 69, arabic: "الْقَادِرُ", transliteration: "Al-Qadir", translation: "«Могучий»", description: "Создатель способен сотворить всё из ничего и может уничтожить всё." },
-  { id: 70, arabic: "الْمُقْتَدِرُ", transliteration: "Al-Muqtadir", translation: "«Всемогущий»", description: "Господь устроил всё в обоих мирах наилучшим образом." },
+  { id: 70, arabic: "الْمُقْتَدِرُ", transliteration: "Al-Muqtadir", translation: "«Делающий всё наилучшим образом»", description: "Господь устроил всё в обоих мирах наилучшим образом." },
   { id: 71, arabic: "الْمُقَدِّمُ", transliteration: "Al-Muqaddim", translation: "«Продвигающий»", description: "Всевышний даёт возможность продвинуться вперёд наилучшим из людей." },
   { id: 72, arabic: "الْمُؤَخِّرُ", transliteration: "Al-Mu'akhkhir", translation: "«Отодвигающий»", description: "Творец может отдалять тех, кого пожелает." },
   { id: 73, arabic: "الْأَوَّلُ", transliteration: "Al-Awwal", translation: "«Первый»", description: "Аллах существовал всегда, Он не имеет начала." },
