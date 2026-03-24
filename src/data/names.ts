@@ -16,7 +16,7 @@ export const allahNames: AllahName[] = [
   { id: 7, arabic: "الْمُؤْمِنُ", transliteration: "Al-Mu'min", translation: "«Дарующий стабильность»", description: "По воле Всевышнего вера появляется в душах людей и именно Господь является источником стабильности и безопасности." },
   { id: 8, arabic: "الْمُهَيْمِنُ", transliteration: "Al-Muhaymin", translation: "«Хранитель»", description: "Означает, что Создатель является попечителем верующих людей, оберегающим их." },
   { id: 9, arabic: "الْعَزِيزُ", transliteration: "Al-Aziz", translation: "«Могущественный»", description: "Это имя говорит нам о том, что Аллах является обладателем безграничного могущества." },
-  { id: 10, arabic: "الْجَبَّارُ", transliteration: "Al-Jabbar", translation: "«Подчиняющий»", description: "Указывает, что Аллах способен любые творения подчинить Своей воле." },
+  { id: 10, arabic: "الْجَبَّارُ", transliteration: "Al-Jabbar", translation: "«Управляющий всеми»,«Подчиняющий»", description: "Указывает, что Аллах способен любые творения подчинить Своей воле." },
   { id: 11, arabic: "الْمُتَكَبِّرُ", transliteration: "Al-Mutakabbir", translation: "«Превосходящий»", description: "Всевышний обладает безграничным величием и превосходством над всеми существами." },
   { id: 12, arabic: "الْخَالِقُ", transliteration: "Al-Khaliq", translation: "«Творец»", description: "Характеризует нашего Создателя как Творца всего сущего." },
   { id: 13, arabic: "الْبَارِئُ", transliteration: "Al-Bari", translation: "«Создатель»", description: "То есть Господь является Создателем всего живого и неживого во Вселенной." },
