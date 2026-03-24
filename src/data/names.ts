@@ -21,7 +21,7 @@ export const allahNames: AllahName[] = [
   { id: 12, arabic: "الْخَالِقُ", transliteration: "Al-Khaliq", translation: "«Творец»", description: "Характеризует нашего Создателя как Творца всего сущего." },
   { id: 13, arabic: "الْبَارِئُ", transliteration: "Al-Bari", translation: "«Создатель»", description: "То есть Господь является Создателем всего живого и неживого во Вселенной." },
   { id: 14, arabic: "الْمُصَوِّرُ", transliteration: "Al-Musawwir", translation: "«Придающий всему форму и облик»", description: "Именно Аллах по своему замыслу придает всем своим творениям определенный облик, форму и размер." },
-  { id: 15, arabic: "الْغَفَّارُ", transliteration: "Al-Ghaffar", translation: "«Скрывающий грехи»", description: "Означает, что Создатель скрывает грехи людей и покрывает их недостатки, которые впоследствии Аллах может простить." },
+  { id: 15, arabic: "الْغَفَّارُ", transliteration: "Al-Ghaffar", translation: "«Скрывающий чужие грехи»", description: "Означает, что Создатель скрывает грехи людей и покрывает их недостатки, которые впоследствии Аллах может простить." },
   { id: 16, arabic: "الْقَهَّارُ", transliteration: "Al-Qahhar", translation: "«Господствующий»", description: "Имеется ввиду, что Аллах господствует над всем в обоих мирах." },
   { id: 17, arabic: "الْوَهَّابُ", transliteration: "Al-Wahhab", translation: "«Дарующий»", description: "Это имя служит доказательством того, что Творец дарует людям всё, в чём они нуждаются." },
   { id: 18, arabic: "الرَّزَّاقُ", transliteration: "Ar-Razzaq", translation: "«Наделяющий»", description: "Именно Создатель наделяет людей средствами, необходимыми для их существования." },
