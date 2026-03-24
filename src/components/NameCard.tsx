@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface NameCardProps {
+export interface NameCardProps {
   name: {
     number: number;
     arabic: string;
@@ -11,7 +11,7 @@ interface NameCardProps {
   index: number;
 }
 
-const NameCard: React.FC<NameCardProps> = ({ name, index }) => {
+export const NameCard: React.FC<NameCardProps> = ({ name, index }) => {
   const playArabicVoice = () => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
@@ -49,5 +49,3 @@ const NameCard: React.FC<NameCardProps> = ({ name, index }) => {
     </div>
   );
 };
-
-export default NameCard;
