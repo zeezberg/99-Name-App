@@ -22,14 +22,16 @@ export default defineConfig(({mode}) => {
           display: 'standalone',
           icons: [
             {
-              src: 'icon.svg',
-              sizes: '192x192 512x512',
-              type: 'image/svg+xml',
+              src: 'icon.png', // Поменял на png, так как мы используем именно этот формат
+              sizes: '512x512',
+              type: 'image/png',
               purpose: 'any maskable'
             }
           ]
         },
         workbox: {
+          // ВОТ ЭТА СТРОЧКА ИСПРАВЛЯЕТ ОШИБКУ:
+          maximumFileSizeToCacheInBytes: 6000000, 
           globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
           runtimeCaching: [
             {
@@ -39,7 +41,7 @@ export default defineConfig(({mode}) => {
                 cacheName: 'google-fonts-cache',
                 expiration: {
                   maxEntries: 10,
-                  maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
+                  maxAgeSeconds: 60 * 60 * 24 * 365
                 },
                 cacheableResponse: {
                   statuses: [0, 200]
@@ -53,7 +55,7 @@ export default defineConfig(({mode}) => {
                 cacheName: 'gstatic-fonts-cache',
                 expiration: {
                   maxEntries: 10,
-                  maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
+                  maxAgeSeconds: 60 * 60 * 24 * 365
                 },
                 cacheableResponse: {
                   statuses: [0, 200]
@@ -73,8 +75,6 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
